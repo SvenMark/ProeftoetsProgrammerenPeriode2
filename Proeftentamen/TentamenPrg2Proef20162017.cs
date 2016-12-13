@@ -35,7 +35,7 @@ namespace Proeftentamen
                 {
                     smallest = i;
                 }
-                if (Math.Abs(i) <= Math.Abs(smallest) && i > 0)
+                if (Math.Abs(i) == Math.Abs(smallest) && i > 0)
                 {
                     smallest = i;
                 }
